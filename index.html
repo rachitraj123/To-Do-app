@@ -119,9 +119,8 @@
             <button class="button" id="button">ADD</button>
         </div>
         <div class="items" id="items">
-            
         </div>
-        <button class="reset" type="reset" id="reset">
+        <button class="reset" type="reset" id="resets">
             Reset
         </button>
     </div>
@@ -133,8 +132,9 @@
                 document.getElementById("items").innerHTML+="<p>"+v+"</p>";
             }
         }
-        document.getElementById("reset").onclick=function(){
+        document.getElementById("resets").onclick=function(){
             document.getElementById("items").style.display="none";
+            document.getElementById("items").innerHTML="";
         }
     </script>
 </body>
