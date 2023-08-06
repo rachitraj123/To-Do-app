@@ -1,0 +1,136 @@
+* {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.title {
+  background-color: #b99a71;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 2rem;
+  border-radius: 10px;
+  color: #f6e5e5; }
+
+.title h1 {
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin: auto; }
+
+.container {
+  width: 90%;
+  background-color: #bc915c;
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; }
+
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0 1rem; }
+
+.add input {
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 1rem;
+  font-size: 20px; }
+
+.add button {
+  width: 30%;
+  margin-left: 0.1rem;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #947777;
+  color: #ecd2d2;
+  float: right;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.items {
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+  background-color: #caaf8f;
+  border-radius: 5px;
+  display: none;
+  position: relative; }
+
+p {
+  margin-top: 0.2rem;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  padding: 1rem;
+  position: relative; }
+
+.reset {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 25%;
+  margin-left: 0.2rem;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #947777;
+  color: #ecd2d2;
+  margin-right: 8px; }
+
+.cross {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  bottom: 0%;
+  right: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 20px; }
+
+button:hover, button:active {
+  background-color: #947777; }
+
+.cross img {
+  width: 20px;
+  margin: 2px; }
+
+.cross img:hover, .cross img:active {
+  filter: invert(100%); }
+
+.cross:hover {
+  background-color: #947777; }
+  .cross:hover .cross img:hover, .cross:hover .cross img:active {
+    filter: invert(100%); }
+
+/*# sourceMappingURL=style.css.map */
